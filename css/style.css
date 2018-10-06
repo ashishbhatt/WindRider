@@ -697,7 +697,7 @@ a.simpleCart_empty {
 }
 
 .grid figure p {
-    letter-spacing: 12px;
+    letter-spacing: 4px;
     color: #fff;
     line-height: 2em;
     font-size: 1.1em;
@@ -721,11 +721,11 @@ figure.effect-roxy img {
 
 figure.effect-roxy figcaption::before {
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
-    border: 4px solid #fff;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+    border: 2px solid #fff;
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -738,17 +738,17 @@ figure.effect-roxy figcaption::before {
 }
 
 figure.effect-roxy figcaption {
-    padding: 3em;
+    padding: 0.5em;
     text-align: right;
-    border: 13px solid rgba(255, 255, 255, 0.15);
+    border: 10px solid rgba(255, 255, 255, 0.15);
 }
 
 figure.effect-roxy h3 {
-    padding: 1.5em 0 .5em;
-    font-size: 1.7em;
+    padding: 0.5em 0 .5em;
+    font-size: 1.5em;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 figure.effect-roxy p {
 	opacity: 0;
@@ -773,7 +773,7 @@ figure.effect-roxy:hover p,.agileinfo_banner_bottom_grid_three_left:hover figcap
 }
 
 .wthree_banner_bottom_grid_three_left1 {
-    width: 49.5%;
+    width: 25%;
     float: left;
 }
 .banner_bottom_agile_info {
